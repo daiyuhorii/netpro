@@ -11,7 +11,7 @@ def run_cmd(cmd):
 
 
 def main():
-    passwd = "horiidaiyu0131"
+    passwd = input('Enter your password:')
     pwd = os.getcwd()
     cmd = "echo " + passwd + " | sudo -S " + pwd + "/sniffer"
     print('Running command:', cmd + "...\n")
