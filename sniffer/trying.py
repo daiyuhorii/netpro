@@ -63,7 +63,8 @@ for i in range(len(info_a)):
     locations = [ [float(info_a[i]["s_latitude"]), float(info_a[i]["s_longitude"])],[float(info_a[i]["d_latitude"]), float(info_a[i]["d_longitude"])]]
 
     folium.PolyLine(locations=locations).add_to(m)
-
+    folium.CircleMarker(location=(float(info_a[i]["d_latitude"]),float(info_a[i]["d_longitude"])),
+                                fill_color='blue', number_of_sides=3, radius=5,rotation=10).add_to(m)
 
 
 
