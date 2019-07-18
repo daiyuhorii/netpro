@@ -48,7 +48,7 @@ def capture_from_packet(line):
 
 
 def sniff():
-    passwd = "horiidaiyu0131"
+    passwd = input("Enter your password:")
     pwd = os.getcwd()
     cmd = "echo " + passwd + " | sudo -S " + pwd + "/sniff"
     print('Running command:', cmd + "...\n")
