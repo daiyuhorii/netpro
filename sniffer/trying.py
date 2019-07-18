@@ -15,7 +15,7 @@ longitudes = []
 dendai = [{"IP": "133.14.0.0", "latitude": "35.69", "longitude": "139.69"}
         ]
 
-# s_latitude = srcの緯度,d_latitude = dstの経度
+# s_latitude = srcの緯度,d_latitude = dstの緯度
 info_a = [{"src":"133.14.0.0","dst":"8.8.8.8","s_latitude":"","s_longitude":"","d_latitude":"","d_longitude":""}]
 
 
