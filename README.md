@@ -1,5 +1,5 @@
 # netpro
-Something like Wireshark
+Something like psuedo Wireshark or tcpdump
 
-Locates the opposite packet sender by sniffing its IP, and use Geoip to do that.
-It also analyses transmission protocol by its IP, and recosgnizes FLAGs like SYN/ACK/RST/FIN.
+It locates the packet senders' vague address by sniffing their IPs, and we use Geoip2 to do that.
+It also analyses transmission protocol by its IP header, and recognizes TCP FLAGs when received/sent.
